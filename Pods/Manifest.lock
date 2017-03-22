@@ -1,0 +1,15 @@
+PODS:
+  - DTMHeatmap (1.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - DTMHeatmap
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  DTMHeatmap: f5588af0730fbfe78c75d6d013f1932d7d327ab2
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 2c4da0daa0ad39322b3206e60c39f0af547e7bec
+
+COCOAPODS: 1.1.1

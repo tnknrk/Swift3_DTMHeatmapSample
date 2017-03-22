@@ -1,0 +1,6 @@
+framework module Pods_DTMHeatmapSwift3 {
+  umbrella header "Pods-DTMHeatmapSwift3-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0024434CD079A66594A44E0C1CC916AB /* Pods-DTMHeatmapSwift3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3128E099551D0BC756A198DF6CEFB7DC /* Pods-DTMHeatmapSwift3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01E1F56C0A2A29100B00E0D79FEBBEC5 /* DTMDiffColorProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADB5CE5D7729078F50E0CC9D10E3FD3 /* DTMDiffColorProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20DC568BAB5896C75D9EC7635F6B0C4F /* DTMHeatmap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204AFCDFB04F5017A517FD5B39BDDC5 /* DTMHeatmap-dummy.m */; };
+		373C1FF8CE4A91575E2070AE1BD53129 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D078C61690020236C442A0648F71ED /* SwiftyJSON-dummy.m */; };
+		5613F6EC30A4A8D2185C542B11B331B8 /* DTMHeatmap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 827998EF6DDF5E6B45FBDC8166AF5D56 /* DTMHeatmap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EB1B4EC4D93617831C2332CFF3498A0 /* DTMHeatmap.h in Headers */ = {isa = PBXBuildFile; fileRef = F61857456F79CF31F7909DCBBF1AEF62 /* DTMHeatmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68124D008DFB718E2C1610BDE5343549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		74D9D17C3F46DFE0B3DDE669974D1B16 /* DTMColorProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2F01761586604FE1461FD93DF81BB0 /* DTMColorProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76B9BE3EC5B718A22992FD1A1211F875 /* Pods-DTMHeatmapSwift3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 454EB40B69B17A032110566B891CCBFE /* Pods-DTMHeatmapSwift3-dummy.m */; };
+		878170F3CBFE4B230B0272EE9F3F2673 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A013E533618E37A150C5093F7E493C6 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BE3B5F9F28757C0B7EE4941A04D524A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676B2A380D112958329DCE63E17D63D0 /* SwiftyJSON.swift */; };
+		95AEF5B1328F6E796FCED7B081A5C2B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		988D4F244BE845F2E725DF86E3E437D6 /* DTMHeatmapRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0AE93670C8F4DF7446400538636369 /* DTMHeatmapRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F9C9873E085275FD1A4E0E5A925E480 /* DTMDiffColorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CE179A2BEAED4C6E097718126465EF /* DTMDiffColorProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B9E67B1D9125A1F8ECC7CA0A3FBB10FB /* DTMHeatmapRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AE260B6B270B1C2BFE46B6E940D91C /* DTMHeatmapRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CE34B5D0778A8B42C8A7F78B26CC338B /* DTMDiffHeatmap.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D1DA9456904BDE99AD3EB5F31FB95 /* DTMDiffHeatmap.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D767A34C9EEC35CBC02BB56F11FDF45A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E4BA340EC10070EFD08231E1FF9BECFC /* DTMDiffHeatmap.h in Headers */ = {isa = PBXBuildFile; fileRef = F933ACED8A2C4D03527599B553842EEA /* DTMDiffHeatmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5A0B61C9881CFD339E984DF9D90DEB7 /* DTMHeatmap.m in Sources */ = {isa = PBXBuildFile; fileRef = E6745718155C63817A5CB8F9F2427AA9 /* DTMHeatmap.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F2D8B3F3E8EF160A4563ACA58710724C /* DTMColorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A4516FA5CB06541725C3F6B573058A /* DTMColorProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C29F54F3C8AF3CBA2AFE66F7C8A7964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B4C9EC378CA598DD84FC16F98C9070;
+			remoteInfo = SwiftyJSON;
+		};
+		D4C3C2635653F0DF4923CC2A8ED315DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5A3F1A1530921880E32ACC3F76C16F;
+			remoteInfo = DTMHeatmap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002A1840DC53E26ABA4AED3B09C31C00 /* DTMHeatmap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DTMHeatmap.framework; path = DTMHeatmap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0204AFCDFB04F5017A517FD5B39BDDC5 /* DTMHeatmap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTMHeatmap-dummy.m"; sourceTree = "<group>"; };
+		0814B257582C7BA5AF2F69F9C363E458 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A013E533618E37A150C5093F7E493C6 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		1D453F7F36D9A843503F88792B0D3851 /* Pods-DTMHeatmapSwift3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DTMHeatmapSwift3.modulemap"; sourceTree = "<group>"; };
+		3128E099551D0BC756A198DF6CEFB7DC /* Pods-DTMHeatmapSwift3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTMHeatmapSwift3-umbrella.h"; sourceTree = "<group>"; };
+		32051CBDE7D8976185DF7FD9172C622B /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		34D7C400208806678E8F93B5A644A236 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FFE8A4EF1987A030F0F13B8F17DE87 /* Pods-DTMHeatmapSwift3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTMHeatmapSwift3.debug.xcconfig"; sourceTree = "<group>"; };
+		454EB40B69B17A032110566B891CCBFE /* Pods-DTMHeatmapSwift3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTMHeatmapSwift3-dummy.m"; sourceTree = "<group>"; };
+		4E010C3856C0EC5542F47B1349E6881B /* Pods-DTMHeatmapSwift3-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTMHeatmapSwift3-acknowledgements.plist"; sourceTree = "<group>"; };
+		551FC2307B35A4A479737A09ACEBF74D /* Pods-DTMHeatmapSwift3-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTMHeatmapSwift3-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B0AE93670C8F4DF7446400538636369 /* DTMHeatmapRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTMHeatmapRenderer.h; sourceTree = "<group>"; };
+		65AE260B6B270B1C2BFE46B6E940D91C /* DTMHeatmapRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTMHeatmapRenderer.m; sourceTree = "<group>"; };
+		676B2A380D112958329DCE63E17D63D0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		735D762CDCE80D860BE1EFD8A16C5D66 /* Pods-DTMHeatmapSwift3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTMHeatmapSwift3.release.xcconfig"; sourceTree = "<group>"; };
+		738AF0DD0557A428168CA0C78D43D8D9 /* DTMHeatmap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTMHeatmap-prefix.pch"; sourceTree = "<group>"; };
+		748D10CA6D9B4836A54BBC82D9FFBD02 /* Pods-DTMHeatmapSwift3-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTMHeatmapSwift3-resources.sh"; sourceTree = "<group>"; };
+		7997868A3641764F08C4438D0BD06926 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		7ADB5CE5D7729078F50E0CC9D10E3FD3 /* DTMDiffColorProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTMDiffColorProvider.h; path = "Color Providers/DTMDiffColorProvider.h"; sourceTree = "<group>"; };
+		7F595F08FC915A608E2F751E146BF1CF /* Pods-DTMHeatmapSwift3-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTMHeatmapSwift3-frameworks.sh"; sourceTree = "<group>"; };
+		806ABD41D391DAF25BA31C6ADE2FE5E2 /* Pods_DTMHeatmapSwift3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DTMHeatmapSwift3.framework; path = "Pods-DTMHeatmapSwift3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		827998EF6DDF5E6B45FBDC8166AF5D56 /* DTMHeatmap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTMHeatmap-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94F7001A90128D880855368ACCB02F63 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		A5E5AA34B2262F5024939E376A83FDAA /* DTMHeatmap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTMHeatmap.xcconfig; sourceTree = "<group>"; };
+		AE2F01761586604FE1461FD93DF81BB0 /* DTMColorProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTMColorProvider.h; path = "Color Providers/DTMColorProvider.h"; sourceTree = "<group>"; };
+		B9CE179A2BEAED4C6E097718126465EF /* DTMDiffColorProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTMDiffColorProvider.m; path = "Color Providers/DTMDiffColorProvider.m"; sourceTree = "<group>"; };
+		BE2D1DA9456904BDE99AD3EB5F31FB95 /* DTMDiffHeatmap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTMDiffHeatmap.m; path = Heatmaps/DTMDiffHeatmap.m; sourceTree = "<group>"; };
+		C1A4516FA5CB06541725C3F6B573058A /* DTMColorProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTMColorProvider.m; path = "Color Providers/DTMColorProvider.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E1FDA73A706FDE669DA998DDF8752461 /* DTMHeatmap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DTMHeatmap.modulemap; sourceTree = "<group>"; };
+		E5F78EFA664AC780756C74AD42CAB354 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6745718155C63817A5CB8F9F2427AA9 /* DTMHeatmap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTMHeatmap.m; path = Heatmaps/DTMHeatmap.m; sourceTree = "<group>"; };
+		F61857456F79CF31F7909DCBBF1AEF62 /* DTMHeatmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTMHeatmap.h; path = Heatmaps/DTMHeatmap.h; sourceTree = "<group>"; };
+		F7AD9F844FDA1E69C05EA683D0A9E7AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F933ACED8A2C4D03527599B553842EEA /* DTMDiffHeatmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTMDiffHeatmap.h; path = Heatmaps/DTMDiffHeatmap.h; sourceTree = "<group>"; };
+		F9D078C61690020236C442A0648F71ED /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B9DB7BA4C814BB7E16FB974D4E25B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68124D008DFB718E2C1610BDE5343549 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3921780DE3CFAF9574C3801C35577DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D767A34C9EEC35CBC02BB56F11FDF45A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACBA9F0C88754142028F1D263080907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AEF5B1328F6E796FCED7B081A5C2B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F4115101290A1A21F4D26FAD5A19D0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				574BBE15BC5B33F10826615D0CBE7337 /* DTMHeatmap */,
+				61A00E698D73B82570EFA5F5399D1092 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		574BBE15BC5B33F10826615D0CBE7337 /* DTMHeatmap */ = {
+			isa = PBXGroup;
+			children = (
+				AE2F01761586604FE1461FD93DF81BB0 /* DTMColorProvider.h */,
+				C1A4516FA5CB06541725C3F6B573058A /* DTMColorProvider.m */,
+				7ADB5CE5D7729078F50E0CC9D10E3FD3 /* DTMDiffColorProvider.h */,
+				B9CE179A2BEAED4C6E097718126465EF /* DTMDiffColorProvider.m */,
+				F933ACED8A2C4D03527599B553842EEA /* DTMDiffHeatmap.h */,
+				BE2D1DA9456904BDE99AD3EB5F31FB95 /* DTMDiffHeatmap.m */,
+				F61857456F79CF31F7909DCBBF1AEF62 /* DTMHeatmap.h */,
+				E6745718155C63817A5CB8F9F2427AA9 /* DTMHeatmap.m */,
+				5B0AE93670C8F4DF7446400538636369 /* DTMHeatmapRenderer.h */,
+				65AE260B6B270B1C2BFE46B6E940D91C /* DTMHeatmapRenderer.m */,
+				9E4BFDDEB7D51D18FABB937AF974C306 /* Support Files */,
+			);
+			name = DTMHeatmap;
+			path = DTMHeatmap;
+			sourceTree = "<group>";
+		};
+		61A00E698D73B82570EFA5F5399D1092 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				676B2A380D112958329DCE63E17D63D0 /* SwiftyJSON.swift */,
+				9086A767DFD5E1867EB1DC854A68ADE3 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		639F29F741F1404282BBEC69C9471811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				002A1840DC53E26ABA4AED3B09C31C00 /* DTMHeatmap.framework */,
+				806ABD41D391DAF25BA31C6ADE2FE5E2 /* Pods_DTMHeatmapSwift3.framework */,
+				0814B257582C7BA5AF2F69F9C363E458 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3F4115101290A1A21F4D26FAD5A19D0A /* Pods */,
+				639F29F741F1404282BBEC69C9471811 /* Products */,
+				BE1BE44583159CC8C7EC9C55DB81AA25 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9086A767DFD5E1867EB1DC854A68ADE3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34D7C400208806678E8F93B5A644A236 /* Info.plist */,
+				94F7001A90128D880855368ACCB02F63 /* SwiftyJSON.modulemap */,
+				32051CBDE7D8976185DF7FD9172C622B /* SwiftyJSON.xcconfig */,
+				F9D078C61690020236C442A0648F71ED /* SwiftyJSON-dummy.m */,
+				7997868A3641764F08C4438D0BD06926 /* SwiftyJSON-prefix.pch */,
+				0A013E533618E37A150C5093F7E493C6 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		9E4BFDDEB7D51D18FABB937AF974C306 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1FDA73A706FDE669DA998DDF8752461 /* DTMHeatmap.modulemap */,
+				A5E5AA34B2262F5024939E376A83FDAA /* DTMHeatmap.xcconfig */,
+				0204AFCDFB04F5017A517FD5B39BDDC5 /* DTMHeatmap-dummy.m */,
+				738AF0DD0557A428168CA0C78D43D8D9 /* DTMHeatmap-prefix.pch */,
+				827998EF6DDF5E6B45FBDC8166AF5D56 /* DTMHeatmap-umbrella.h */,
+				E5F78EFA664AC780756C74AD42CAB354 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DTMHeatmap";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE1BE44583159CC8C7EC9C55DB81AA25 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC48C8109F88810463188997C108330E /* Pods-DTMHeatmapSwift3 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DC48C8109F88810463188997C108330E /* Pods-DTMHeatmapSwift3 */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD9F844FDA1E69C05EA683D0A9E7AE /* Info.plist */,
+				1D453F7F36D9A843503F88792B0D3851 /* Pods-DTMHeatmapSwift3.modulemap */,
+				551FC2307B35A4A479737A09ACEBF74D /* Pods-DTMHeatmapSwift3-acknowledgements.markdown */,
+				4E010C3856C0EC5542F47B1349E6881B /* Pods-DTMHeatmapSwift3-acknowledgements.plist */,
+				454EB40B69B17A032110566B891CCBFE /* Pods-DTMHeatmapSwift3-dummy.m */,
+				7F595F08FC915A608E2F751E146BF1CF /* Pods-DTMHeatmapSwift3-frameworks.sh */,
+				748D10CA6D9B4836A54BBC82D9FFBD02 /* Pods-DTMHeatmapSwift3-resources.sh */,
+				3128E099551D0BC756A198DF6CEFB7DC /* Pods-DTMHeatmapSwift3-umbrella.h */,
+				40FFE8A4EF1987A030F0F13B8F17DE87 /* Pods-DTMHeatmapSwift3.debug.xcconfig */,
+				735D762CDCE80D860BE1EFD8A16C5D66 /* Pods-DTMHeatmapSwift3.release.xcconfig */,
+			);
+			name = "Pods-DTMHeatmapSwift3";
+			path = "Target Support Files/Pods-DTMHeatmapSwift3";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F01FBB0196AC11ED8C55E2922644978 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0024434CD079A66594A44E0C1CC916AB /* Pods-DTMHeatmapSwift3-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC22495B708417F1E39E562E55E09E79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878170F3CBFE4B230B0272EE9F3F2673 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8054B9E2DB6508CEB526714524761 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D9D17C3F46DFE0B3DDE669974D1B16 /* DTMColorProvider.h in Headers */,
+				01E1F56C0A2A29100B00E0D79FEBBEC5 /* DTMDiffColorProvider.h in Headers */,
+				E4BA340EC10070EFD08231E1FF9BECFC /* DTMDiffHeatmap.h in Headers */,
+				5613F6EC30A4A8D2185C542B11B331B8 /* DTMHeatmap-umbrella.h in Headers */,
+				5EB1B4EC4D93617831C2332CFF3498A0 /* DTMHeatmap.h in Headers */,
+				988D4F244BE845F2E725DF86E3E437D6 /* DTMHeatmapRenderer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05B4C9EC378CA598DD84FC16F98C9070 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6738A3167E38E500D910DA3BC322E70F /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				FCAC1C54FE1810047D15ACDA8F3FB014 /* Sources */,
+				AACBA9F0C88754142028F1D263080907 /* Frameworks */,
+				BC22495B708417F1E39E562E55E09E79 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 0814B257582C7BA5AF2F69F9C363E458 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CD3E6B5688C0AA785267E5B9F83733B /* Pods-DTMHeatmapSwift3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F08A2189E302CD26EBCBD6252924BCF /* Build configuration list for PBXNativeTarget "Pods-DTMHeatmapSwift3" */;
+			buildPhases = (
+				80462FFDB0C5B23179F8DBD50C515391 /* Sources */,
+				A3921780DE3CFAF9574C3801C35577DF /* Frameworks */,
+				5F01FBB0196AC11ED8C55E2922644978 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34476B9C209364BDD3EEB245BDF35C60 /* PBXTargetDependency */,
+				388E14D0FFED0C46B588D776107C38A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-DTMHeatmapSwift3";
+			productName = "Pods-DTMHeatmapSwift3";
+			productReference = 806ABD41D391DAF25BA31C6ADE2FE5E2 /* Pods_DTMHeatmapSwift3.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF5A3F1A1530921880E32ACC3F76C16F /* DTMHeatmap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6D329BC506DCD3561D5A98FE8CBB34 /* Build configuration list for PBXNativeTarget "DTMHeatmap" */;
+			buildPhases = (
+				47CC9462273B08FAE335B601589A7CBD /* Sources */,
+				2B9DB7BA4C814BB7E16FB974D4E25B9C /* Frameworks */,
+				FAB8054B9E2DB6508CEB526714524761 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTMHeatmap;
+			productName = DTMHeatmap;
+			productReference = 002A1840DC53E26ABA4AED3B09C31C00 /* DTMHeatmap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 639F29F741F1404282BBEC69C9471811 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF5A3F1A1530921880E32ACC3F76C16F /* DTMHeatmap */,
+				6CD3E6B5688C0AA785267E5B9F83733B /* Pods-DTMHeatmapSwift3 */,
+				05B4C9EC378CA598DD84FC16F98C9070 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47CC9462273B08FAE335B601589A7CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D8B3F3E8EF160A4563ACA58710724C /* DTMColorProvider.m in Sources */,
+				9F9C9873E085275FD1A4E0E5A925E480 /* DTMDiffColorProvider.m in Sources */,
+				CE34B5D0778A8B42C8A7F78B26CC338B /* DTMDiffHeatmap.m in Sources */,
+				20DC568BAB5896C75D9EC7635F6B0C4F /* DTMHeatmap-dummy.m in Sources */,
+				E5A0B61C9881CFD339E984DF9D90DEB7 /* DTMHeatmap.m in Sources */,
+				B9E67B1D9125A1F8ECC7CA0A3FBB10FB /* DTMHeatmapRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80462FFDB0C5B23179F8DBD50C515391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B9BE3EC5B718A22992FD1A1211F875 /* Pods-DTMHeatmapSwift3-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAC1C54FE1810047D15ACDA8F3FB014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373C1FF8CE4A91575E2070AE1BD53129 /* SwiftyJSON-dummy.m in Sources */,
+				8BE3B5F9F28757C0B7EE4941A04D524A /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34476B9C209364BDD3EEB245BDF35C60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTMHeatmap;
+			target = CF5A3F1A1530921880E32ACC3F76C16F /* DTMHeatmap */;
+			targetProxy = D4C3C2635653F0DF4923CC2A8ED315DA /* PBXContainerItemProxy */;
+		};
+		388E14D0FFED0C46B588D776107C38A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 05B4C9EC378CA598DD84FC16F98C9070 /* SwiftyJSON */;
+			targetProxy = 1C29F54F3C8AF3CBA2AFE66F7C8A7964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		093E29CBA8F88AEA8A58467C5BE07B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735D762CDCE80D860BE1EFD8A16C5D66 /* Pods-DTMHeatmapSwift3.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DTMHeatmapSwift3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTMHeatmapSwift3/Pods-DTMHeatmapSwift3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DTMHeatmapSwift3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FB3E50542438D215C1C246D92E19C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32051CBDE7D8976185DF7FD9172C622B /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31D52E93F6392DD4408F6D60B21FEE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E5AA34B2262F5024939E376A83FDAA /* DTMHeatmap.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTMHeatmap/DTMHeatmap-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTMHeatmap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTMHeatmap/DTMHeatmap.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DTMHeatmap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D43174B41850DEB7546F976981493BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40FFE8A4EF1987A030F0F13B8F17DE87 /* Pods-DTMHeatmapSwift3.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DTMHeatmapSwift3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTMHeatmapSwift3/Pods-DTMHeatmapSwift3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DTMHeatmapSwift3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8753BBC4A6C6F9BE3C98EA2FA714D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E5AA34B2262F5024939E376A83FDAA /* DTMHeatmap.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTMHeatmap/DTMHeatmap-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTMHeatmap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTMHeatmap/DTMHeatmap.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DTMHeatmap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6B7F1F50E8FB25B3BA864A32A48CBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32051CBDE7D8976185DF7FD9172C622B /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F08A2189E302CD26EBCBD6252924BCF /* Build configuration list for PBXNativeTarget "Pods-DTMHeatmapSwift3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D43174B41850DEB7546F976981493BA /* Debug */,
+				093E29CBA8F88AEA8A58467C5BE07B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6738A3167E38E500D910DA3BC322E70F /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB3E50542438D215C1C246D92E19C1E /* Debug */,
+				F6B7F1F50E8FB25B3BA864A32A48CBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6D329BC506DCD3561D5A98FE8CBB34 /* Build configuration list for PBXNativeTarget "DTMHeatmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D52E93F6392DD4408F6D60B21FEE1A /* Debug */,
+				E8753BBC4A6C6F9BE3C98EA2FA714D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
